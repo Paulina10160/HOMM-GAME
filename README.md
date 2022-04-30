@@ -1,1 +1,1 @@
-# HOMM-GAME
+# HoMM
