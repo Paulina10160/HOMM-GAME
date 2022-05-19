@@ -593,8 +593,8 @@ void generateRandomDestination(ObjectData* character, Board* board)
 	int y = rand() % CELLS_Y;
 	while (board->cells[y][x] == 255)
 	{
-		int x = rand() % CELLS_X;
-		int y = rand() % CELLS_Y;
+		 x = rand() % CELLS_X;
+		 y = rand() % CELLS_Y;
 	}
 	character->cellDestinyX = x;
 	character->cellDestinyY = y;
